@@ -5,28 +5,7 @@
     <link>https://rayschneider.net/</link>
     <description>Recent content on Ray Schneider</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Mon, 14 Mar 2022 15:13:16 -0400</lastBuildDate><atom:link href="https://rayschneider.net/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Team Core Values</title>
-      <link>https://rayschneider.net/posts/mycorevalues/</link>
-      <pubDate>Mon, 14 Mar 2022 15:13:16 -0400</pubDate>
-      
-      <guid>https://rayschneider.net/posts/mycorevalues/</guid>
-      <description>For at least the last 12 years or more, I have shared the following Core Values with teams and places I have worked. Now to be quite honest, I do not recall any longer if I built these on top of something else, or if I just generated these out of thin air from my own thoughts. So any semblance to others is a happy accident of like mindedness. I’m quite sure over the years, I have modified the wording a bit.</description>
-    </item>
-    
-    <item>
-      <title>Working With Me</title>
-      <link>https://rayschneider.net/posts/workingwithme/</link>
-      <pubDate>Mon, 14 Mar 2022 15:06:23 -0400</pubDate>
-      
-      <guid>https://rayschneider.net/posts/workingwithme/</guid>
-      <description>Working With Me
-NOTE: I may update this in the future. Its not a static document.
-Inspired by others I have seen over the years, I can&amp;rsquo;t claim complete originality for this document. I have seen others do this and thought it was a good idea. I have been meaning to do it for a while now, and finally got around to it. I hope you find it useful. I know I will.</description>
-    </item>
-    
+    <language>en</language><atom:link href="https://rayschneider.net/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>https://rayschneider.net/about/</link>

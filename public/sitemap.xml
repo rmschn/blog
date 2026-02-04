@@ -2,22 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://rayschneider.net/posts/</loc>
-    <lastmod>2022-03-14T15:13:16-04:00</lastmod>
-  </url><url>
-    <loc>https://rayschneider.net/</loc>
-    <lastmod>2022-03-14T15:13:16-04:00</lastmod>
-  </url><url>
-    <loc>https://rayschneider.net/posts/mycorevalues/</loc>
-    <lastmod>2022-03-14T15:13:16-04:00</lastmod>
-  </url><url>
-    <loc>https://rayschneider.net/posts/workingwithme/</loc>
-    <lastmod>2022-03-14T15:06:23-04:00</lastmod>
-  </url><url>
     <loc>https://rayschneider.net/about/</loc>
     <lastmod>2022-02-16T15:01:58-05:00</lastmod>
   </url><url>
     <loc>https://rayschneider.net/categories/</loc>
+  </url><url>
+    <loc>https://rayschneider.net/</loc>
   </url><url>
     <loc>https://rayschneider.net/tags/</loc>
   </url>
