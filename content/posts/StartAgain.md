@@ -1,7 +1,7 @@
 +++ 
 draft = false
 date = 2026-02-04T14:31:07-05:00
-title = ""
+title = "Start Again in 2026"
 slug = "" 
 tags = []
 categories = []
