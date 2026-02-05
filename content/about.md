@@ -1,9 +1,8 @@
 ---
-title: "About"
+title: "About Ray"
 date: 2022-02-16T15:01:58-05:00
 draft: false
 ---
-# Ray
 
 ## Builder. Engineer. Veteran
 
