@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://rayschneider.net/posts/startagain/</loc>
-    <lastmod>2026-02-04T14:31:07-05:00</lastmod>
-  </url><url>
     <loc>https://rayschneider.net/posts/</loc>
     <lastmod>2026-02-04T14:31:07-05:00</lastmod>
   </url><url>
     <loc>https://rayschneider.net/</loc>
+    <lastmod>2026-02-04T14:31:07-05:00</lastmod>
+  </url><url>
+    <loc>https://rayschneider.net/posts/startagain/</loc>
     <lastmod>2026-02-04T14:31:07-05:00</lastmod>
   </url><url>
     <loc>https://rayschneider.net/about/</loc>
