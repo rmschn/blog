@@ -18,9 +18,9 @@ pygmentsUseClasses = true
     author = "Ray Schneider"
     description = "Ray Schneider personal website"
     keywords = "blog,programming,developer,personal,tech,security,cloud,automation,leadership"
-    info = "improvise. adapt. overcome."
+    info = "ARC | DEV | ENG | VET"
     avatarurl = "avatar.jpg"
-    footercontent = "Copyright (C) 2025 Ray Schneider. All Rights Reserved."
+    footercontent = "Copyright (C) 2026 Ray Schneider. All Rights Reserved."
     fixedbarContent = "Thank You! Feel free to share→"
     fixedbarContentAfter = "Thank You! Please share it if you like it→"
 
@@ -67,8 +67,8 @@ pygmentsUseClasses = true
     		author = "Ray Schneider"
     		description = "Ray Schneider personal website"
     		keywords = "blog,developer,personal,tech,security,cloud,automation,leadership"
-    		info = "improvise. adapt. overcome."
-            footercontent = "Copyright (C) 2025 Ray Schneider. All Rights Reserved."
+    		info = "ARC | DEV | ENG | VET"
+            footercontent = "Copyright (C) 2026 Ray Schneider. All Rights Reserved."
         [languages.en.menu] # It is possible to change the menu too.
 
             [[languages.en.menu.main]]
