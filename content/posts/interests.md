@@ -6,8 +6,7 @@ slug = ""
 tags = []
 categories = []
 thumbnail = "images/tn.png"
-description = "This post is just about my own interests in technology providing
-a hint at future posts."
+description = "about my own interests in technology"
 +++
 
 Last week, I posted and said the schedule would be that posts would happen
