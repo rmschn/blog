@@ -6,7 +6,18 @@
     <description>Recent content on Ray Schneider</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Mar 2026 17:17:59 -0500</lastBuildDate><atom:link href="https://rayschneider.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Mar 2026 11:59:43 -0400</lastBuildDate><atom:link href="https://rayschneider.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Team Transformation: From App Admins to DevOps</title>
+      <link>https://rayschneider.net/posts/teamtransformation/</link>
+      <pubDate>Mon, 16 Mar 2026 11:59:43 -0400</pubDate>
+      
+      <guid>https://rayschneider.net/posts/teamtransformation/</guid>
+      <description>##Quick Note
+This post is about transformation. It isn’t a tech transformation story but a technical teams transformation from being specialized ‘application administrators’ to becoming ‘devops engineers.’ The names of individuals, companies, etc, have all be either changed or left out in order to protect their privacy, but the reader can understand that this is a story from my professional past in a leadership role.
+A little background to give some industry contexts for these transformations is in order.</description>
+    </item>
+    
     <item>
       <title>Interests</title>
       <link>https://rayschneider.net/posts/interests/</link>

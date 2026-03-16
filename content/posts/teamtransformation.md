@@ -8,22 +8,22 @@ categories = []
 thumbnail = "images/tn.png"
 description = "A Story of Team Transformation"
 +++
-##**Quick Note**
+## **Quick Note**
 
 This post is about transformation. It isn’t a tech transformation story but a technical teams transformation from being specialized ‘application administrators’ to becoming ‘devops engineers.’ 
 The names of individuals, companies, etc, have all be either changed or left out in order to protect their privacy, but the reader can understand that this is a story from my professional past in a leadership role.
 
 A little background to give some industry contexts for these transformations is in order.
  
-##**App Admin**
+## **App Admin**
 
 In the enterprise there are many contracts, professional relationships, proprietary technologies in place, and of course, over many years the specialization of the enterprise workforce. This is how things had been getting done for a long time. The industry started with system administrators which were not specialized roles, they were running all the systems. Over time the industry at least in the largest enterprises started to specialize the workforce and thus was born the Application Admin, or App Admin for short. This was / is essentially a systems admin for a single application used by the enterprise.
 
-##**DevOps**
+## **DevOps**
 
 Then along came ‘Dev/Ops.’ Another but new specialization at the time, which essentially combined several related but different responsibilities. Related in the since that they were generally operating on the same tech stack, but different in the sense that one side was developing that tech stack, and the other was operating it. Thus DevOps is born. The idea that you built it you run it. You might still have individuals with specialization within the DevOps team, but it’s generally the case that these individuals are cross-trained within the team to operate across the tech. The industry adoption of this caused a transformation. 
 
-##**Transformation**
+## **Transformation**
 
 So how does transformation happen? What do you do in order to encourage a group of people to adopt an entirely new mindset, operating model, and gain new skills? Not only that, but do it while they are all still making the same salaries, and must continue to run the same environments they are currently responsible for during the transition, all the while, transitioning everything to the new way?
 
@@ -85,7 +85,7 @@ If you operate like this as you transition the team members from App Admins to D
                                                                                                                                            
 In my case, I would review Monthly and Quarterly with each individual on the team. You learn a lot about people doing this. It will become evident to you if a team member bakes in extra time for themselves. Or if a team member is always right about their time estimates because they always deliver 100%. 
 
-##**Team Transformation Benefit**
+## **Team Transformation Benefit**
 
 Adopting DevOps at the enterprise level delivers significant, measurable benefits. Here are the key advantages:
 
