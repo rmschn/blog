@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Ray Schneider">
+    <meta name="description" content="https://rayschneider.net">
+    <meta name="keywords" content="blog,developer,personal,tech,security,cloud,automation,leadership">
+
+    <meta property="og:site_name" content="Ray Schneider">
+    <meta property="og:title" content="
+  Tech Transformation: From Proprietary to Open Source - Ray Schneider
+">
+    <meta property="og:description" content="a tech transformation experience">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rayschneider.net/posts/techtransformation/">
+    <meta property="og:image" content="https://rayschneider.netimages/tn.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="https://rayschneider.net/posts/techtransformation/">
+    <meta name="twitter:image" content="https://rayschneider.netimages/tn.png">
+
+    <base href="https://rayschneider.net/posts/techtransformation/">
+    <title>
+  Tech Transformation: From Proprietary to Open Source - Ray Schneider
+</title>
+
+    <link rel="canonical" href="https://rayschneider.net/posts/techtransformation/">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    
+    <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
+    <link rel="stylesheet" href="/css/normalize.min.css">
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+    
+      <link rel="alternate" href="https://rayschneider.net/index.xml" type="application/rss+xml" title="Ray Schneider">
+      <link href="https://rayschneider.net/index.xml" rel="feed" type="application/rss+xml" title="Ray Schneider" />
+    
+
+    <meta name="generator" content="Hugo 0.92.2" />
+  </head>
+
+  <body class="">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">Ray Schneider</a>
+    <input type="checkbox" id="menu-control"/>
+    <label class="menu-mobile  float-right " for="menu-control">
+      <span class="btn-mobile  float-right ">&#9776;</span>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://rayschneider.net/about">About</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://rayschneider.net/posts">Blog</a>
+            </li>
+          
+        
+        
+      </ul>
+    </label>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+  <article>
+    <header>
+      <h1 class="title">Tech Transformation: From Proprietary to Open Source</h1>
+      <h2 class="date">March 18, 2026</h2>
+
+      
+    </header>
+
+    <h2 id="note"><strong>Note</strong></h2>
+<p>Transformation happens across both technology stacks and the people running them. The previous post was about Team Transformation. This post will cover the Tech Transformation that was happening at the same time. It doesn’t always happen that way, but it did in my case. Once again, the names of the people and the companies have been either left our or changed to protect peoples privacy.</p>
+<p>This is a story about the tech transformation of a data center automation team from a almost completely proprietary tech stack to a completely open source one. So lets get into it&hellip;</p>
+<h2 id="the-proprietary-tech-stack"><strong>The Proprietary Tech Stack</strong></h2>
+<p>This story goes back a little ways. This is a data centers operations tech stack. It was comprised of several proprietary and enterprise open source systems. These systems came from companies like HP, Red Hat, and Microsoft for the most part. They were a tech stack run by a team of application admins that each were focused on a different part of this overall stack. The overall goal, provide data center operations for infrastructure including systems and networking, and the management of those systems configurations and so forth.</p>
+<p>So while this stack has in it some open source, I’m listing it here in the proprietary tech stack because frankly, it required a certificate to be operational. Without a valid cert, YMMV and boy did it. I won’t get into which company, or why the cert mattered, but lets just say if you didn’t have a valid cert the YMMV part would break internal technical processes so badly that they were essentially stalled.</p>
+<p>Thus the need to transform entirely away from a proprietary stack to an open source internally driven one.</p>
+<h2 id="the-open-source-tech-stack"><strong>The Open Source Tech Stack</strong></h2>
+<p>The open source stack? It was a lot of things and there were a lot to choose from. We’ll cover how we got to this stack later. Here is a list of what was settled on:</p>
+<ul>
+<li>
+<p><strong>The Foreman</strong> &ndash; OS Provisioning</p>
+</li>
+<li>
+<p><strong>Puppet</strong> &ndash; configuration management</p>
+</li>
+<li>
+<p><strong>Spacewalk</strong> &ndash; Package mgt and config</p>
+</li>
+<li>
+<p><strong>Chocolaty</strong> &ndash; Windows pkgs</p>
+</li>
+<li>
+<p><strong>TincVPN</strong> &ndash; secure connectivity for our infra</p>
+</li>
+<li>
+<p><strong>Capistrano</strong> &ndash; remote server automation</p>
+</li>
+<li>
+<p><strong>Docker</strong> &ndash; for containers</p>
+</li>
+<li>
+<p><strong>MySQL</strong> &ndash;for ETL / data storage and reporting</p>
+</li>
+<li>
+<p><strong>Ruby</strong> &ndash; the chosen programming language of the team, among others for web gui’s</p>
+</li>
+<li>
+<p><strong>Rabbit MQ</strong> &ndash; for message broker</p>
+</li>
+</ul>
+<p>-<strong>Subversion / Gitlab</strong> &ndash; for versioning</p>
+<ul>
+<li>
+<p><strong>Vagrant</strong> &ndash; for dev VM OS images</p>
+</li>
+<li>
+<p><strong>OTHER STUFF</strong> &ndash; there is some more, but I don’t think its important to list it all here</p>
+</li>
+</ul>
+<p>Now I should note, that there are some things that just stayed proprietary. For instance, some of the infrastructure this stuff ran on top of was not open source. Things like VMware, and other proprietary IaaS like systems. For the sake of our story probably doesn’t matter too much.</p>
+<p>So there it is.. the new open source stack largely identified. There were a few more things that were internally developed. We developed a service for grouping systems and another homegrown monitoring system. We can talk about those as we go, but since they were fully internally developed I won’t go into too much detail about them.</p>
+<p>I should also mention that while I named underlying tech stacks, we didn’t necessarily use them just as they came. In multiple instances we made modifications. In most cases we contributed those changes back upstream to the open source project. In other cases, we simply kept it internally just to us. When we did that it was largely because the change was specific to our environments needs.</p>
+<h2 id="the-tech-transformation"><strong>The Tech Transformation</strong></h2>
+<p>So how do you go about executing a tech transformation of this sort?</p>
+<p>You have to know why you are doing it, what you are replacing, and you need buy-in and support not just from leadership, but from your customers.</p>
+<p>So how did we do that? We did it like this…</p>
+<p>First, we took inventory of our proprietary tech stack. Then we made a list of all of its functionality. Then we poured through that functionality and prioritized it based on our internal use of that functionality.</p>
+<p>Next up, we went on the search for open source systems that met those functional needs. We grouped them, we examined them, we compared them. We scored them based on our needs.
+Then we made a list of what delivered what functionality and why we made that choice.</p>
+<p>Then, we took all of that information, examined our current proprietary environment and grouped things together that need to be transformed together to maintained a coherent operating environment. We also tested these ideas out, banged through them, poked holes. We documented our thoughts. Then we road mapped and time lined it all.</p>
+<p>Now that we had all of this upfront data, we built our own pitch deck. Thats right, we were pitching this. We worked backwards. First we pitched our immediate supervisor. Then with them onboard, we immediately pitched our customer base in groups and sought feedback on the ideas shared.</p>
+<p>Once we had the ideas shared and the feedback, we examined what was provided and made the necessary changes to the plan and reviewed this again with out immediate supervisor. Once they understood and were on board we once again, went to our customer base and pitched it including the reasons why we did or did not include any feedback we received. In the end, they were all on board and appreciated being included in the process and the decision making because it effected all of their futures.</p>
+<p>Now with that all settled we needed to get this idea funded. We took that same deck and presented to the executives of our entire division. You know, the people with the decision making power to ensure we had the money to make this happen or not.</p>
+<p>By the way, lets not forget that all along the way we performed calculations on the money that would be saved. We projected an initial $30 million a year savings. This got peoples attention especially since we already had and would provide the justification for such numbers.</p>
+<p>Once those executives had heard our pitch, understood that we already had the support of our customer base, and buy-in from that customer base. We had the go ahead.</p>
+<p>This work required a team transformation as well. We talked about that in the previous post, so we’ll leave it out of this one.</p>
+<h2 id="the-timeline-and-continued-buy-in"><strong>The Timeline and Continued Buy-In</strong></h2>
+<p>All transformation takes time. In this case we had segmented each grouping of our delivery path and our goal was by end of year to be operating on the new open source based systems entirely.</p>
+<p>We did this with team transformation, so the skill sets required grew into the team as the tech transformation began. The entire work required updates to our customer base and transition times for each grouping as they were delivered.</p>
+<p>This was accomplished by providing regularly projects updates to the customers. We would have well over 200 people on these presentation calls. It was amazing. The excitement was catching for the whole organization. These updates happened at both a monthly and a quarterly basis. They always shared the plans and the timelines, and the money savings along the way.</p>
+<p>Keeping everyone in the loop, kept the buy-in in place. We had no detractors. Quite the opposite. Many were finding ways to report about our status in their own updates to be a part of the success.</p>
+<h2 id="the-return-on-investment-roi"><strong>The Return on Investment (ROI)</strong></h2>
+<p>Here is a breakdown of the costs and monetary results based on current enterprise data.</p>
+<h2 id="1-upfront-migration-costs-the-investment"><strong>1. Upfront Migration Costs (The Investment)</strong></h2>
+<p>While the software license itself is often free, the <em>total cost of migration</em> can be substantial. You are generally switching from a product cost / support contract to little to no product cost / the need for complete internally driven support.</p>
+<p>Enterprises should budget for these one-time expenses:</p>
+<ul>
+<li><strong>Implementation &amp; Integration:</strong></li>
+</ul>
+<p>This is often the largest cost. It involves configuring the software, integrating it with legacy systems, and potentially hiring specialized consultants. For complex systems (like ERP or CRM), implementation can range from <strong>$50,000 to several million dollars</strong> depending on scale.</p>
+<ul>
+<li><strong>Data Migration:</strong></li>
+</ul>
+<p>Moving data from proprietary formats to open standards often requires custom scripting and cleaning. This can add <strong>15–25%</strong> to the implementation budget.</p>
+<ul>
+<li><strong>Customization:</strong></li>
+</ul>
+<p>Unlike proprietary &ldquo;black boxes,&rdquo; open source often requires tailoring to fit specific workflows. Development costs here vary wildly but are a key budget line item.</p>
+<ul>
+<li><strong>Training &amp; Change Management:</strong></li>
+</ul>
+<p>Staff must be retrained on new interfaces and workflows. Budget for <strong>10–20%</strong> of the project cost for training to ensure adoption.</p>
+<ul>
+<li><strong>Dual-Running Costs:</strong></li>
+</ul>
+<p>During the transition, you may pay for both the old proprietary system and the new open source stack simultaneously.</p>
+<h2 id="2-ongoing-cost-savings-the-return"><strong>2. Ongoing Cost Savings (The Return)</strong></h2>
+<p>Once migrated, the operational expenditure (OpEx) profile changes dramatically:</p>
+<ul>
+<li><strong>Elimination of Licensing Fees:</strong></li>
+</ul>
+<p>This is the immediate win. Enterprises typically save <strong>20–30% on total IT costs</strong> in the first year simply by removing per-user or per-core licensing fees. Over 3–5 years, this compounds significantly.</p>
+<ul>
+<li><strong>Reduced Vendor Lock-in:</strong></li>
+</ul>
+<p>You avoid forced upgrades and arbitrary price hikes common with proprietary vendors.</p>
+<ul>
+<li><strong>Hardware Efficiency:</strong></li>
+</ul>
+<p>Open source solutions (especially in infrastructure, like Linux or Kubernetes) often run more efficiently on commodity hardware, reducing infrastructure spend.</p>
+<h2 id="3-monetary-results--roi"><strong>3. Monetary Results &amp; ROI</strong></h2>
+<p>Industry research highlights strong financial returns for organizations that manage the transition well:</p>
+<ul>
+<li><strong>ROI Ratio:</strong></li>
+</ul>
+<p>Studies indicate organizations can achieve up to <strong>4.8x ROI</strong> by actively leveraging open source software compared to remaining on proprietary stacks.</p>
+<ul>
+<li><strong>Macro Impact:</strong></li>
+</ul>
+<p>On a broader scale, open source adoption is credited with saving the global IT industry trillions in licensing costs, allowing capital to be redirected toward innovation rather than rent.</p>
+<ul>
+<li><strong>Break-Even Point:</strong></li>
+</ul>
+<p>Most enterprises reach a break-even point within <strong>12–18 months</strong>. After this period, the cumulative savings from avoided licensing fees typically exceed the initial migration investment.</p>
+<h2 id="4-hidden-costs--risks-to-watch"><strong>4. Hidden Costs &amp; Risks to Watch</strong></h2>
+<p>To ensure the financial model holds up, account for these ongoing responsibilities:</p>
+<ul>
+<li><strong>Support Contracts:</strong></li>
+</ul>
+<p>While the software is free, enterprises often pay for &ldquo;Enterprise Support&rdquo; (e.g., from Red Hat, Canonical, or specialized vendors) to guarantee SLAs. This is usually <strong>30–50% cheaper</strong> than proprietary licenses but is still a cost.</p>
+<ul>
+<li><strong>Internal Expertise:</strong></li>
+</ul>
+<p>You may need to hire or train staff to maintain the system, as you can no longer rely solely on the vendor&rsquo;s support desk.</p>
+<ul>
+<li><strong>Security &amp; Compliance:</strong></li>
+</ul>
+<p>The responsibility for patching and compliance auditing shifts to you. Automation is key here to keep costs down.</p>
+<h2 id="summary-the-financial-verdict"><strong>Summary: The Financial Verdict</strong></h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Phase</th>
+<th style="text-align:left">Proprietary Model</th>
+<th style="text-align:left">Open Source Model</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Upfront</strong></td>
+<td style="text-align:left">High Licensing Fees</td>
+<td style="text-align:left">High Implementation/Training Costs</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ongoing</strong></td>
+<td style="text-align:left">High Recurring Licenses</td>
+<td style="text-align:left">Lower Support &amp; Maintenance Costs</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Flexibility</strong></td>
+<td style="text-align:left">Low (Vendor Roadmap)</td>
+<td style="text-align:left">High (Self-Directed)</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Typical ROI</strong></td>
+<td style="text-align:left">Baseline</td>
+<td style="text-align:left"><strong>~4.8x</strong> (over 3-5 years)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Our Tech Transformation Results</strong></p>
+<p>In our case, the results were staggeringly good. Part of that was surely based on the overall buy-in from all involved and their dedication to its delivery. Here are some numbers that we experienced solely around the tech transformation.</p>
+<p>We experienced:</p>
+<ul>
+<li>
+<p>A Weeks to Minutes improvement in deployment times across all data centers</p>
+</li>
+<li>
+<p>Fully automated environment config and on-demand promotion from dev-prod</p>
+</li>
+<li>
+<p>Full packaging automation</p>
+</li>
+<li>
+<p>Automated reporting and dashboards</p>
+</li>
+<li>
+<p>On-deployment auto configuration of monitoring systems for deployed objects</p>
+</li>
+<li>
+<p>Mass Remote Execution across huge swaths of the infrastructure as defined by meta data was fully actionably and resulting in atomic actions across the infrastructure</p>
+</li>
+<li>
+<p>A full automation services layer that sheltered the customers from the need to know what tech was driving the solution behind the scenes</p>
+</li>
+<li>
+<p>The ability to upgrade out entire infrastructure without impacting our customers current use</p>
+</li>
+<li>
+<p>Massive $30M Year over Year savings in costs of proprietary contracts and vendor services</p>
+</li>
+</ul>
+<p><strong>Recommendation:</strong></p>
+<p>The move is readily justified if you have the ability to absorb the initial implementation hit. For small teams, the upfront cost of expertise might outweigh the licensing savings. Your experience doing this is in part team member capability based. For mid-to-large enterprises, the <strong>20–30% reduction in ongoing IT spend</strong> and the <strong>4.8x ROI</strong> make a compelling case, provided you invest adequately in training and integration to avoid operational failures.</p>
+
+  </article>
+
+  <br/>
+
+  
+  
+</section>
+
+      </div>
+      
+        <footer class="footer">
+  <section class="container">
+    
+      <div class="sns-shares sp-sns-shares">
+        
+          <a class="sns-share twitter-share" href="https://twitter.com/intent/tweet?original_referer=https%3a%2f%2frayschneider.net%2fposts%2ftechtransformation%2f&ref_src=twsrc%5Etfw&text=Tech%20Transformation%3a%20From%20Proprietary%20to%20Open%20Source Ray%20Schneider&tw_p=tweetbutton&url=https%3a%2f%2frayschneider.net%2fposts%2ftechtransformation%2f"><i class="fab fa-twitter"></i></a>
+        
+        
+          <a class="fb btn sns-share fb-share" href="http://www.facebook.com/share.php?u=https%3a%2f%2frayschneider.net%2fposts%2ftechtransformation%2f" onclick="window.open(this.href, 'FBwindow', 'width=650, height=450, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fab fa-facebook-f"></i></a>
+        
+        
+          <a class="sns-share hatena-share" href="http://b.hatena.ne.jp/entry/https://rayschneider.net/posts/techtransformation/"  data-hatena-bookmark-layout="touch" data-hatena-bookmark-width="40" data-hatena-bookmark-height="40" title="このエントリーをはてなブックマークに追加"><i class="fas fa-bookmark"></i></a>
+        
+        
+          <a class="sns-share line-share" href="https://social-plugins.line.me/lineit/share?url=https%3a%2f%2frayschneider.net%2fposts%2ftechtransformation%2f"><i class="fab fa-line"></i></a>
+        
+        
+          <a class="sns-share linkedIn-share" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3a%2f%2frayschneider.net%2fposts%2ftechtransformation%2f"><i class="fab fa-linkedin"></i></a>
+        
+      </div>
+    
+    
+      <p>Copyright (C) 2026 Ray Schneider. All Rights Reserved.</p>
+    
+     © 2026    ·  Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/naro143/hugo-coder-portfolio">CoderPortfolio</a>. 
+
+  </section>
+</footer>
+<div class="fixed-bar">
+  <section class="container">
+    
+      <p id="privateTriggerText">Thank You! Feel free to share→<a id="privateTrigger">Click!</a></p>
+    
+    
+      <div class="sns-shares pc-sns-shares">
+        
+          <a class="sns-share twitter-share" href="https://twitter.com/intent/tweet?original_referer=https%3a%2f%2frayschneider.net%2fposts%2ftechtransformation%2f&ref_src=twsrc%5Etfw&text=Tech%20Transformation%3a%20From%20Proprietary%20to%20Open%20Source Ray%20Schneider&tw_p=tweetbutton&url=https%3a%2f%2frayschneider.net%2fposts%2ftechtransformation%2f"><i class="fab fa-twitter"></i></a>
+        
+        
+          <a class="fb btn sns-share fb-share" href="http://www.facebook.com/share.php?u=https%3a%2f%2frayschneider.net%2fposts%2ftechtransformation%2f" onclick="window.open(this.href, 'FBwindow', 'width=650, height=450, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fab fa-facebook-f"></i></a>
+        
+        
+          <a class="sns-share hatena-share" href="http://b.hatena.ne.jp/entry/https://rayschneider.net/posts/techtransformation/"  data-hatena-bookmark-layout="touch" data-hatena-bookmark-width="40" data-hatena-bookmark-height="40" title="このエントリーをはてなブックマークに追加"><i class="fas fa-bookmark"></i></a>
+        
+        
+          <a class="sns-share line-share" href="https://social-plugins.line.me/lineit/share?url=https%3a%2f%2frayschneider.net%2fposts%2ftechtransformation%2f"><i class="fab fa-line"></i></a>
+        
+        
+          <a class="sns-share linkedIn-share" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3a%2f%2frayschneider.net%2fposts%2ftechtransformation%2f"><i class="fab fa-linkedin"></i></a>
+        
+      </div>
+    
+  </section>
+</div>
+
+      
+    </main>
+
+    
+
+  <script src="/js/app.js"></script>
+  
+  <script>
+  (function($) {
+    $(function() {
+      $('#privateTrigger').on('click', function() {
+        $('.private').slideToggle();
+        $('#privateTriggerText').text("Thank You! Please share it if you like it→");
+      });
+    });
+   })(jQuery);
+  </script>
+  
+  </body>
+</html>

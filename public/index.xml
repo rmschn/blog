@@ -6,7 +6,17 @@
     <description>Recent content on Ray Schneider</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Mar 2026 11:59:43 -0400</lastBuildDate><atom:link href="https://rayschneider.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 Mar 2026 12:48:47 -0400</lastBuildDate><atom:link href="https://rayschneider.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tech Transformation: From Proprietary to Open Source</title>
+      <link>https://rayschneider.net/posts/techtransformation/</link>
+      <pubDate>Wed, 18 Mar 2026 12:48:47 -0400</pubDate>
+      
+      <guid>https://rayschneider.net/posts/techtransformation/</guid>
+      <description>Note Transformation happens across both technology stacks and the people running them. The previous post was about Team Transformation. This post will cover the Tech Transformation that was happening at the same time. It doesn’t always happen that way, but it did in my case. Once again, the names of the people and the companies have been either left our or changed to protect peoples privacy.
+This is a story about the tech transformation of a data center automation team from a almost completely proprietary tech stack to a completely open source one.</description>
+    </item>
+    
     <item>
       <title>Team Transformation: From App Admins to DevOps</title>
       <link>https://rayschneider.net/posts/teamtransformation/</link>
