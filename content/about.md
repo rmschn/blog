@@ -36,6 +36,6 @@ If you want to connect you can find me on LinkedIn (for now).
 Feel free to drop a note.
 
 --ray
-rmschn at gmail dot com
+rayzprojex at gmail dot com
 
 
