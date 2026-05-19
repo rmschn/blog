@@ -4,35 +4,19 @@ date: 2022-02-16T15:01:58-05:00
 draft: false
 ---
 
-Short Tech Bio... to get the jist of me, but not all of me. :)
+Short Tech Bio... 
 
-- Opensource contributor
+A systems security programmer turned technical director who keeps his hands on
+the code and the systems. I have developed many tech products, many in the 
+cybersecurity space ( IDS / IPS, Authentication / Authorization, automated
+account management systems, Kerberos, secure internet gateways, etc). 
 
-- Operations, Sysadmin, Programmer, technical lead, Director and more
+I think tech is fun! It's not the only thing thats fun though. I also
+enjoy cycling, moto, hiking, and other outdoor pursuits while spending time
+with friends and family.
 
-- Enjoy working tech Startups, generally tech security companies 
+If you want to connect you can find me here, LinkedIn, or the email below.
 
-- Have designed and implemented IAM software, PKI, network sensor systems, intrusion detection
-  systems, firewalls, etc. Even whiteboxed a SIEM for a Fortune 50
-
-- Have built bespoke quality assurance teams and software stacks and complete
-  data center automation systems for companies 
-
-- Even remote configurable customer tech support labs
-
-- Have worked in 3 of the largest ISP's in the world
-
-- Worked at some of the largest media companies as well, sometimes they were the
-  same companies as the largest ISP's :)
-
-- A technical and leadership mentor, mentored people have become Directors, and
-  Senior Directors, VP's and Distinguished Engineers at some of the Fortune 50
-
-- Even spoken at a few conferences and contributed articles
-
-Theres more to me than this file leads on.. but this is more than enough.
-
-If you want to connect you can find me on LinkedIn (for now). 
 Feel free to drop a note.
 
 --ray
