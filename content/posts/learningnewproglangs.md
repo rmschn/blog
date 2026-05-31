@@ -9,8 +9,6 @@ thumbnail = "images/tn.png"
 description = "Recommendations for learning new programming languages"
 +++
 
-# Learning New Programming Languages
-
 ## Every Year
 
 Every year, except for a few years during high school and while I was in the

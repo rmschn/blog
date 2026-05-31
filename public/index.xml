@@ -6,7 +6,16 @@
     <description>Recent content on Ray Schneider</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Mar 2026 12:48:47 -0400</lastBuildDate><atom:link href="https://rayschneider.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Mar 2026 12:00:52 -0400</lastBuildDate><atom:link href="https://rayschneider.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learning New Programming Languages</title>
+      <link>https://rayschneider.net/posts/learningnewproglangs/</link>
+      <pubDate>Tue, 24 Mar 2026 12:00:52 -0400</pubDate>
+      
+      <guid>https://rayschneider.net/posts/learningnewproglangs/</guid>
+      <description>Learning New Programming Languages Every Year Every year, except for a few years during high school and while I was in the Marines till a few years after, I have learned a new programming language. Why? Well, I was once told that during a career you are collecting tools you use. For me, one of those tools is the right programming language for the job at hand. I can&amp;rsquo;t pick the right one if I am only familiar with one.</description>
+    </item>
+    
     <item>
       <title>Tech Transformation: From Proprietary to Open Source</title>
       <link>https://rayschneider.net/posts/techtransformation/</link>
