@@ -6,16 +6,7 @@
     <description>Recent content in Posts on Ray Schneider</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 02 Jun 2026 09:54:34 -0400</lastBuildDate><atom:link href="https://rayschneider.net/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Executable Architecture</title>
-      <link>https://rayschneider.net/posts/executablearchitecture/</link>
-      <pubDate>Tue, 02 Jun 2026 09:54:34 -0400</pubDate>
-      
-      <guid>https://rayschneider.net/posts/executablearchitecture/</guid>
-      <description>Executable Architecture Architecture is often thought of as a design phase that happens before any code is written. However, architecture can and should be executable. What I mean by that is a design can be coded, that design code can be translated into IaC, that IaC can be deployed in various environment levels (dev, test, staging, production). Beyond this the architecture can be managed and automated like a software project. Here I am going to attempt to outline how this might be done, because I have been talking about it for years and want to share the idea.</description>
-    </item>
-    
+    <lastBuildDate>Tue, 24 Mar 2026 12:00:52 -0400</lastBuildDate><atom:link href="https://rayschneider.net/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Learning New Programming Languages</title>
       <link>https://rayschneider.net/posts/learningnewproglangs/</link>
