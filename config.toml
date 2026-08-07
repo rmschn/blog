@@ -56,6 +56,12 @@ pygmentsUseClasses = true
     weight = 1
     url = "https://github.com/rmschn/"
 
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin"
+    weight = 2
+    url = "https://www.linkedin.com/in/rayzprojex"
+
 [languages]
     [languages.en]
         languagecode = "en"
